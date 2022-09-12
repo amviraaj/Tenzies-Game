@@ -75,7 +75,7 @@ function App() {
     }
   }
   
-
+//here we have use the useeffect to create setintreval function but it is not complete 
   React.useEffect(() => {
     let timer = 0  
     const times = setInterval( () => {
@@ -91,7 +91,7 @@ function App() {
 
   
 
-  // Here we have side effect due to connect two instance or state 
+  // Here we have added side effect to connect two instance or state 
   React.useEffect(() => {     
      const allHeld = dice.every(die => die.isheld)
      const firstValue = dice[0].value
